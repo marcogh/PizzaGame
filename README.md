@@ -15,6 +15,7 @@ Il primo giocatore che mangia la pizza avvelenata perde.
 
 ### Esempio
 
+- 2 giocatori (A e B)
 - sul tavolo sono presenti 12 pizze
 - inizia il giocatore A
 - il giocatore A decide di mangiare 1 pizza (rimangono 11 pizze sul tavolo)
