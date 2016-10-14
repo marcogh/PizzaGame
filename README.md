@@ -24,7 +24,7 @@ Il primo giocatore che mangia la pizza avvelenata perde.
 - il giocatore A decide di mangiare 3 pizze (rimangono 2 pizze sul tavolo)
 - il giocatore B ha perso. Se mangia 2 pizze perde. Se decide di mangiare 1 pizza, allora il giocatore A è costretto a saltare il turno in quanto non puó applicare le proprie mosse (ovvero non puó mangiare 2 oppure 3 pizze) costringendo il giocatore B a mangiare l'ultima pizza avvelenata
 
-### Istruzioni
+### Istruzioni per il candidato
 
 - il candidato puó decidere autonomamente se realizzare un programma standalone oppure una piccola applicazione web 
 - il candidato puó utilizzare un linguaggio di programmazione a piacere
