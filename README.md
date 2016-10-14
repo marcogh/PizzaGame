@@ -28,4 +28,4 @@ Al centro di una stanza è presente un tavolo con numero n di pizze impilate una
 - il candidato puó utilizzare un linguaggio di programmazione a piacere
 - qualora il candidato decida di realizzare un programma standalone, è preferibile l'utilizzo di un linguaggio di programmazione ad oggetti (C#, Java)
 - qualora il candidato decida di realizzare un'applicazione web, è preferibile l'adozione di Html, Css e Javascript
-- al termine dello sviluppo effettuare una **pull request** sul repository corrente con i sorgenti e le istruzioni per eseguire il programma realizzato 
+- al termine dello sviluppo effettuare una **pull request** sul repository corrente contenente i sorgenti e le istruzioni per eseguire il programma realizzato 
