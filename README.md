@@ -1,6 +1,8 @@
 # PizzaGame
 
-Al centro di una stanza è presente un tavolo con numero n di pizze impilate una sopra l'altra, ma attenzione, l'ultima pizza di questa pila è avvelenata!!! Il primo giocatore che mangia la pizza avvelenata perde.
+Al centro di una stanza è presente un tavolo sopra il quale sono presenti n di pizze impilate una sopra l'altra.
+Attenzione, l'ultima pizza di questa pila è avvelenata!!! 
+Il primo giocatore che mangia la pizza avvelenata perde.
 
 ### Regole del gioco
 
