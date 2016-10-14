@@ -11,7 +11,7 @@ Il primo giocatore che mangia la pizza avvelenata perde.
 - Ogni giocatore, durante il proprio turno, deve mangiare 1, 2 o 3 pizze
 - Ogni giocatore non puó saltare il proprio turno
 - Ogni giocatore non puó ripetere la scelta fatta in precedenza dall'avversario (per esempio: se il giocatore di turno decide di mangiare 1 pizza, allora l'altro giocatore è obbligato a mangiare 2 oppure 3 pizze)
-- Se un giocatore durante il proprio turno non ha mosse valide (per esempio: rimane ancora 1 pizza sul tavolo e il giocatore precedente ha mangiato 1 pizza) allora viene obbligato a saltare il proprio turno. A questo punto l'altro giocatore sarà obbligato a mangiare la torta avvelenata e, di conseguenza, a perdere. Questo è l'unico caso nel quale è consentito il salto del turno
+- Se un giocatore durante il proprio turno non ha mosse valide (per esempio: rimane ancora 1 pizza sul tavolo e il giocatore precedente ha mangiato 1 pizza) allora viene obbligato a saltare il proprio turno. A questo punto l'altro giocatore sarà obbligato a mangiare la pizza avvelenata e, di conseguenza, a perdere. Questo è l'unico caso nel quale è consentito il salto del turno
 
 ### Esempio
 
