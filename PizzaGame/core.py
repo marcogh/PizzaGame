@@ -27,7 +27,7 @@ class PizzaGame:
                 continue 
 
             if self.stack.is_poisoned(count):
-                print "You lose, the pizza was poisoned!"
+                print("You lose, the pizza was poisoned!")
                 break
 
             self.stack.eat(count)
@@ -36,23 +36,23 @@ class PizzaGame:
     def get_eaten_pizzas(self):
         valid_moves = self.stack.get_valid_moves()
         if len(valid_moves) == 0:
-            print "\n%s, you cannot move. You skip your turn." % (
-                                    self.turn.get_current_player())
+            print("\n%s, you cannot move. You skip your turn." % (
+                                    self.turn.get_current_player()))
             raise NoValidMove
 
         while True:
             """
             Waits until a valid input
             """
-            print "\n%s pizzas left.\n%s, it's your turn." % (
-                            self.stack.status, self.turn.get_current_player())
+            print("\n%s pizzas left.\n%s, it's your turn." % (
+                            self.stack.status, self.turn.get_current_player()))
             try:
                 count = int(raw_input('  How many pizzas you want to eat? '))
                 if count not in valid_moves:
                     raise ValueError
             except ValueError:
-                print "  %s is not a valid number. Valid moves are %s" % (
-                        count, valid_moves)
+                print("  %s is not a valid number. Valid moves are %s" % (
+                        count, valid_moves))
                 continue
             return count
 

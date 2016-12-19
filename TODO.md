@@ -3,6 +3,7 @@ Coding
 
 * stricly PEP-328 project layout 
 * Unify StackManager and TurnManager
+* python3 compatibility
 
 Testing
 -------
