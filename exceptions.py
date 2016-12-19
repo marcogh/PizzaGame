@@ -1,0 +1,2 @@
+class NoValidMove(Exception):
+    pass
