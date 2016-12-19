@@ -23,13 +23,12 @@ class PizzaGameTest(unittest.TestCase):
         self.p.stack.eat(2)
         assert self.p.stack.get_valid_moves() == [1]
 
-
     def test_game(self):
         self.p.stack.set_status(10)
         self.p.stack.eat(2)
         self.p.stack.eat(3)
         self.p.stack.eat(2)
-        assert self.p.stack.is_poisoned(4)
+        assert self.p.stack.is_poisoned(3)
 
 if __name__ == '__main__':
     unittest.main()
